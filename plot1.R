@@ -1,4 +1,4 @@
-setwd("~/Desktop/Online Coursera/Coursera-Exploratory-Data-Analysis/ExData_Plotting2/")
+setwd("/Users/ppartheeban/Documents/git/ExData_Plotting2")
 unzip("./data/exdata-data-NEI_data.zip", exdir = "./data/")
 # Check if both data exist. If not, load the data.
 if (!"neiData" %in% ls()) {
@@ -11,11 +11,6 @@ head(neiData)
 head(sccData)
 dim(neiData) # 6497651   6
 dim(sccData) # 11717    15
-
-# if (!"load_data.R" %in% list.files()) {
-#     setwd("~/Desktop/Online Coursera/Coursera-Exploratory-Data-Analysis/ExData_Plotting2/")
-# } 
-# source("load_data.R")
 
 par("mar"=c(5.1, 4.5, 4.1, 2.1))
 png(filename = "./figure/plot1.png", 

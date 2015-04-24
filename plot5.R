@@ -1,4 +1,4 @@
-setwd("~/Desktop/Online Coursera/Coursera-Exploratory-Data-Analysis/ExData_Plotting2/")
+setwd("~/Users/ppartheeban/Documents/git/ExData_Plotting2")
 unzip("./data/exdata-data-NEI_data.zip", exdir = "./data/")
 # Check if both data exist in the environment. If not, load the data.
 if (!"neiData" %in% ls()) {
